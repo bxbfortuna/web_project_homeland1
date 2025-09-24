@@ -1,0 +1,248 @@
+@media screen and (max-width: 1280px) {
+  main {
+    padding: 2rem 8%;
+  }
+  .lead__title {
+    font-size: 6rem;
+    width: 720px;
+    line-height: 1;
+    margin-bottom: 0%;
+  }
+  .lead__subtitle {
+    margin-top: 5%;
+    font-size: 1.875rem;
+    font-weight: 400;
+    max-width: 720px;
+  }
+  .intro {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    height: auto;
+    flex: 1;
+  }
+
+  .intro__text {
+    max-width: 90%;
+    margin: 2 rem auto;
+    text-align: left;
+    position: relative;
+  }
+  .intro__title {
+    font-size: 3.375rem;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    width: 70vw;
+  }
+  .intro__quote {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+    max-width: 85%;
+    text-align: left;
+  }
+  .intro__quote-author {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    max-width: 85%;
+  }
+  .intro__description {
+    font-size: 1rem;
+    line-height: 1.5;
+    max-width: 85%;
+  }
+
+  .footer {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    align-items: last baseline;
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  .footer__copyright {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-self: self-end;
+    width: 100%;
+    line-height: -2;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .lead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .lead__content {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 6rem;
+  }
+  .lead__title {
+    font-size: 4.688rem;
+    width: 60%;
+  }
+  .lead__subtitle {
+    font-size: 1.875rem;
+  }
+  .lead__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+  }
+  main {
+    padding: 1.5rem 6%;
+  }
+  .intro {
+    width: 100%;
+  }
+  .intro__text {
+    max-width: 100%;
+
+    margin: 1rem;
+    padding: 2rem;
+    position: relative;
+  }
+  .intro__title {
+    text-align: left;
+    max-width: 1200vw;
+    width: 99%;
+    font-size: 2.8em;
+    line-height: 49px;
+    margin: 0%;
+    padding: 0;
+  }
+  .intro__quote {
+    max-width: 100%;
+    text-align: left;
+  }
+  .intro__quote-author {
+    max-width: 100%;
+  }
+  .intro__quote,
+  .intro__quote-author {
+    font-size: 1.5rem;
+  }
+  .intro__description {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+  .footer {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .lead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .lead__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+  }
+  .lead__title {
+    width: fit-content;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+  }
+  .lead__subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  .lead__image {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .intro {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    padding: 0;
+  }
+  .intro__text {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
+  }
+  .intro__quote {
+    line-height: 2.125rem;
+    text-align: left;
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+  }
+  .intro__quote-author {
+    max-width: 75%;
+    text-align: end;
+    position: relative;
+    right: -2.5rem;
+  }
+  .intro__title {
+    font-size: 2rem;
+    margin: 1rem auto;
+    max-width: 95%;
+    line-height: 2.188rem;
+  }
+  .intro__quote,
+  .intro__quote-author {
+    font-size: 1.5rem;
+  }
+  .intro__description {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ccc;
+    text-align: left;
+    width: 100%;
+    max-width: 90%;
+    margin: 2rem auto;
+  }
+}

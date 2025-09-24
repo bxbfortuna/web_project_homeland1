@@ -1,0 +1,36 @@
+.intro {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  flex: 1;
+}
+.intro__text {
+  max-width: 90%;
+  margin: 2 rem auto;
+  text-align: left;
+  position: relative;
+}
+.intro__title {
+  font-weight: 900;
+  margin-bottom: 2rem;
+  text-align: left;
+  padding-bottom: 1.5rem;
+}
+.intro__quote {
+  margin-bottom: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.intro__quote-author {
+  position: relative;
+  font-style: italic;
+  margin-bottom: 2rem;
+  text-align: end;
+  width: 100%;
+}
+.intro__description {
+  color: #ccc;
+  width: 100%;
+  margin-bottom: 4rem;
+}
